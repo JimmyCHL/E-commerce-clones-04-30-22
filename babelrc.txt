@@ -1,0 +1,6 @@
+//add this when the app can not find "next/babel"
+//if preset is "@babel/preset-react", the file should import React from 'react';
+
+{
+    "preset": ["@babel/preset-react"]
+}

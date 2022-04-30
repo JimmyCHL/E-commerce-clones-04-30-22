@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "project": {
+    "name": "ecommerce-04-22-22-sanity"
+  },
+  "api": {
+    "projectId": "lf7tyb8m",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
